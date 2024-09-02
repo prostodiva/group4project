@@ -10,7 +10,6 @@ html {
     top: 0;
     left: 0;
     z-index: 2;
-    border: 2px black dotted;
     background-color: #FFFFFF;
 }
 
@@ -81,7 +80,7 @@ html {
     display: inline; 
     position: relative;
     left: 210px;
-   
+
 
     ul {
         list-style-type: none;
@@ -161,12 +160,31 @@ body {
 
 .section1 {
     position: relative;
-    background: pink;
     top: 109.41px;
     width: 100%;
     height: 415px;
-    border: 2px black dotted;
 }
+
+.conteinerMain1 {
+    position: relative;
+    left: 400px;
+    bottom: 25px;
+    width: 50%;
+    height: 315;
+}
+
+.paragraph {
+    font-family: "Din Next LT Pro", sans-serif;
+    font-size: 38px;
+    line-height: 45px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-weight: 800px;
+    text-align: start;
+    color: #020101;
+}
+
 
 
 .section2 {
