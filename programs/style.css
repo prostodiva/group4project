@@ -1,0 +1,130 @@
+.header {
+    position: fixed;
+    width: 1440px;
+    height: 109.41px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: 0px;
+}
+
+.section1 {
+    width: 1440px;
+    height: 109.41px;
+}
+
+.element-conteiner1 {
+    display: grid;
+    grid-template-columns: 213.41px 1036.3px 179.13px;
+    grid-template-rows: 105px;
+    }
+
+.column1 {
+    
+}
+
+.logo {
+    position: relative;
+    left: 56px;
+    top: 20px;
+}
+
+.column2 {
+
+}
+
+.wrapColumn2 {
+    width: 1016.3;
+    height: 30px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navMenu {
+    
+}
+
+.widgetConteiner {
+
+}
+
+.Menu {
+
+    
+}
+
+.navBar {
+    font-family: "Din Next LT Pro", Sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-align: left;
+    display: inline; 
+    position: relative;
+    left: 210px;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    li {
+        float: left;
+    }
+    
+    li a {
+        color: #111;
+        text-align: center;
+        padding: 10px 14px;
+        text-decoration: none;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+
+li a {
+    color: #111;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    color: #91d511;
+}
+
+
+.column3 {
+
+
+}
+
+.navBar2 {
+    font-family: "Din Next LT Pro", Sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-align: left;
+    display: inline; 
+    position: relative;
+    top: 42px;
+    left:30px;
+}
+
+
