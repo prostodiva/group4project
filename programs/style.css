@@ -1,15 +1,28 @@
-.header {
-    position: fixed;
-    width: 1440px;
-    height: 109.41px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    top: 0px;
+html { 
+    overflow-y: scroll; 
 }
 
-.section1 {
+.header {
+    position: fixed;
+    width: 100% !important;
+    height: 109.41px;
+    margin-top: 0px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border: 2px black dotted;
+    background-color: #FFFFFF;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+} 
+
+.sectionHeader {
     width: 1440px;
     height: 109.41px;
+    
 }
 
 .element-conteiner1 {
@@ -130,4 +143,129 @@ li a {
     
 }
 
+body {
+    position: absolute;
+    margin: 0px;
+    background-color: white;
+}
+
+/* .section1 {
+    position: absolute;
+    width: 1440px;
+    height: 415px;
+    margin-top: 109.41;
+    border: 2px black dotted;
+    display: block;
+} */
+
+
+.section1 {
+    position: relative;
+    background: pink;
+    top: 109.41px;
+    width: 100%;
+    height: 415px;
+    border: 2px black dotted;
+}
+
+
+.section2 {
+    position: relative;
+    background: blue;
+    width: 1440px;
+    height: 448px;
+    top: 109.41;
+    border: 2px black dotted;
+}
+
+.section3 {
+    position: relative;
+    background: green;
+    width: 1440px;
+    height: 448px;
+    top: 109.41;
+    border: 2px black dotted;
+}
+
+.section4 {
+    position: relative;
+    background: yellow;
+    width: 1440px;
+    height: 448px;
+    top: 109.41;
+    border: 2px black dotted;
+}
+
+.section5 {
+    position: relative;
+    background: orange;
+    width: 1440px;
+    height: 448px;
+    top: 109.41;
+    border: 2px black dotted;
+}
+
+.section6 {
+    position: relative;
+    background: rgb(180, 32, 190);
+    width: 1440px;
+    height: 448px;
+    top: 109.41;
+    border: 2px black dotted;
+}
+
+.section7 {
+    position: relative;
+    background: rgb(101, 117, 29);
+    width: 1440px;
+    height: 448px;
+    top: 109.41;
+    border: 2px black dotted;
+}
+
+.section8 {
+    position: relative;
+    background: rgb(16, 126, 132);
+    width: 1440px;
+    height: 448px;
+    top: 109.41;
+    border: 2px black dotted;
+}
+
+.section9 {
+    position: relative;
+    background: rgb(205, 140, 11);
+    width: 1440px;
+    height: 448px;
+    top: 109.41;
+    border: 2px black dotted;
+}
+
+.section10 {
+    position: relative;
+    background: rgb(31, 152, 22);
+    width: 1440px;
+    height: 448px;
+    top: 109.41;
+    border: 2px black dotted;
+}
+
+
+.section11 {
+    position: relative;
+    background: rgb(134, 107, 13);
+    width: 1440px;
+    height: 448px;
+    top: 109.41;
+    border: 2px black dotted;
+}
+
+.section12 {
+    position: relative;
+    background: rgb(233, 241, 176);
+    width: 1440px;
+    height: 448px;
+    top: 109.41;
+    border: 2px black dotted;
+}
 
