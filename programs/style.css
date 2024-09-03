@@ -189,47 +189,323 @@ body {
 
 .section2 {
     position: relative;
-    background: blue;
     width: 1440px;
     height: 448px;
-    top: 109.41;
-    border: 2px black dotted;
 }
+
+.containerMain2 {
+    position: relative;
+    width: 916px;
+    height: 468px;
+    left: 300px;
+    bottom: 0px;
+}
+
+.picture1 {
+    position: absolute;
+    right: 518px;
+    width: 418px;
+    height: 418px;
+    bottom: 0px;
+    top: 30px;
+}
+
+.textMain1 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 439px;
+    font-weight: 200;
+    font-family: "Din Next LT Pro", sans-serif;
+    font-size: 20px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.textMain2 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 439px;
+    font-weight: 200;
+    font-family: "Din Next Pro Italic", sans-serif;
+    font-size: 20px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.buttonMain1 {
+    position: relative;
+    left: 440px;
+    top: 50px;
+    background-color: rgb(222, 219, 219);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(94, 93, 93);
+    border-image: initial;
+}
+
+.learnMore {
+    font-family: "Din Next LT Pro", sans-serif;
+    color: rgb(32, 32, 32);
+    font-size: 15px;
+}
+
 
 .section3 {
     position: relative;
-    background: green;
     width: 1440px;
     height: 448px;
     top: 109.41;
-    border: 2px black dotted;
+}
+
+.picture2 {
+    position: absolute;
+    right: 280px;
+    width: 418px;
+    height: 418px;
+    bottom: 0px;
+    top: 30px;
+}
+
+.textMain3 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 280px;
+    font-weight: 200;
+    font-family: "Din Next LT Pro", sans-serif;
+    font-size: 24px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.textMain3-1 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 280px;
+    font-weight: 200;
+    font-family: "Din Next Pro Italic", sans-serif;
+    font-size: 20px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.buttonMain2 {
+    position: relative;
+    left: 280px;
+    top: 50px;
+    background-color: rgb(222, 219, 219);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(94, 93, 93);
+    border-image: initial;
 }
 
 .section4 {
     position: relative;
-    background: yellow;
     width: 1440px;
     height: 448px;
     top: 109.41;
-    border: 2px black dotted;
+}
+
+
+
+.picture3 {
+    position: absolute;
+    right: 280px;
+    width: 418px;
+    height: 418px;
+    bottom: 0px;
+    top: 30px;
+}
+
+.textMain4 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 280px;
+    font-weight: 200;
+    font-family: "Din Next LT Pro", sans-serif;
+    font-size: 24px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.textMain4-1 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 280px;
+    font-weight: 200;
+    font-family: "Din Next Pro Italic", sans-serif;
+    font-size: 20px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.buttonMain3 {
+    position: relative;
+    left: 280px;
+    top: 50px;
+    background-color: rgb(222, 219, 219);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(94, 93, 93);
+    border-image: initial;
 }
 
 .section5 {
     position: relative;
-    background: orange;
     width: 1440px;
     height: 448px;
     top: 109.41;
-    border: 2px black dotted;
+}
+
+.picture4 {
+    position: absolute;
+    right: 750px;
+    width: 418px;
+    height: 418px;
+    bottom: 0px;
+    top: 30px;
+}
+
+.textMain5 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 740px;
+    font-weight: 200;
+    font-family: "Din Next LT Pro", sans-serif;
+    font-size: 20px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.textMain5-1 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 740px;
+    font-weight: 200;
+    font-family: "Din Next LT Pro", sans-serif;
+    font-size: 20px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.buttonMain5 {
+    position: relative;
+    left: 740px;
+    top: 50px;
+    background-color: rgb(222, 219, 219);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(94, 93, 93);
+    border-image: initial;
 }
 
 .section6 {
     position: relative;
-    background: rgb(180, 32, 190);
     width: 1440px;
     height: 448px;
     top: 109.41;
-    border: 2px black dotted;
+}
+
+.picture5 {
+    position: absolute;
+    right: 280px;
+    width: 418px;
+    height: 418px;
+    bottom: 0px;
+    top: 30px;
+}
+
+.textMain6 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 280px;
+    font-weight: 200;
+    font-family: "Din Next LT Pro", sans-serif;
+    font-size: 24px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.textMain6-1 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 280px;
+    font-weight: 200;
+    font-family: "Din Next Pro Italic", sans-serif;
+    font-size: 20px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.buttonMain6 {
+    position: relative;
+    left: 280px;
+    top: 50px;
+    background-color: rgb(222, 219, 219);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(94, 93, 93);
+    border-image: initial;
 }
 
 .section7 {
