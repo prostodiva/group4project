@@ -323,69 +323,6 @@ body {
     border-image: initial;
 }
 
-.section4 {
-    position: relative;
-    width: 1440px;
-    height: 448px;
-    top: 109.41;
-}
-
-
-
-.picture3 {
-    position: absolute;
-    right: 280px;
-    width: 418px;
-    height: 418px;
-    bottom: 0px;
-    top: 30px;
-}
-
-.textMain4 {
-    position: relative;
-    color: rgb(2, 1, 1);
-    bottom: 0px;
-    top: 48px;
-    left: 280px;
-    font-weight: 200;
-    font-family: "Din Next LT Pro", sans-serif;
-    font-size: 24px;
-    line-height: 32.4px;
-    vertical-align: baseline;
-    letter-spacing: normal;
-    word-spacing: 0px;
-}
-
-.textMain4-1 {
-    position: relative;
-    color: rgb(2, 1, 1);
-    bottom: 0px;
-    top: 48px;
-    left: 280px;
-    font-weight: 200;
-    font-family: "Din Next Pro Italic", sans-serif;
-    font-size: 20px;
-    line-height: 32.4px;
-    vertical-align: baseline;
-    letter-spacing: normal;
-    word-spacing: 0px;
-}
-
-.buttonMain3 {
-    position: relative;
-    left: 280px;
-    top: 50px;
-    background-color: rgb(222, 219, 219);
-    color: white;
-    text-align: center;
-    display: inline-block;
-    padding: 8px 20px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(94, 93, 93);
-    border-image: initial;
-}
-
 .section5 {
     position: relative;
     width: 1440px;
