@@ -31,4 +31,17 @@ document.addEventListener("DOMContentLoaded", function() {
             event.target.style.transition="all 0.3s";
             event.target.style['text-decoration']='';
         });
+    //learn more
+    const learnMoreElement = document.getElementById("learnMoreColor");
+    learnMoreElement.addEventListener("mouseover", 
+        (event) => {
+            event.target.style.backgroundColor="#bdbdbd";
+            event.target.style.transition="all 0.5s";
+        });
+    learnMoreElement.addEventListener("mouseout",
+        (event) => {
+            event.target.style.backgroundColor="";
+            event.target.style.transition="all 0.3s";
+        });
+
     });

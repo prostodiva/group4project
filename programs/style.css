@@ -30,9 +30,6 @@ html {
     grid-template-rows: 105px;
     }
 
-.column1 {
-    
-}
 
 .logo {
     position: relative;
@@ -40,9 +37,6 @@ html {
     top: 25px;
 }
 
-.column2 {
-
-}
 
 .wrapColumn2 {
     width: 1016.3;
@@ -52,18 +46,9 @@ html {
     flex-direction: column;
 }
 
-.navMenu {
-    
-}
-
 .widgetConteiner {
     position: relative;
     top: 10px;
-}
-
-.Menu {
-    
-    
 }
 
 .navBar {
@@ -87,6 +72,7 @@ html {
         margin: 0;
         padding: 0;
         overflow: hidden;
+        text-decoration: none;
     }
     li {
         float: left;
@@ -118,12 +104,6 @@ li a {
     color: #91d511;
 }
 
-
-.column3 {
-
-
-}
-
 .navBar2 {
     font-family: "Din Next LT Pro", Sans-serif;
     font-size: 15px;
@@ -147,16 +127,6 @@ body {
     margin: 0px;
     background-color: white;
 }
-
-/* .section1 {
-    position: absolute;
-    width: 1440px;
-    height: 415px;
-    margin-top: 109.41;
-    border: 2px black dotted;
-    display: block;
-} */
-
 
 .section1 {
     position: relative;
@@ -184,8 +154,6 @@ body {
     text-align: start;
     color: #020101;
 }
-
-
 
 .section2 {
     position: relative;
@@ -259,6 +227,7 @@ body {
     font-family: "Din Next LT Pro", sans-serif;
     color: rgb(32, 32, 32);
     font-size: 15px;
+    text-decoration: none;
 }
 
 
@@ -447,56 +416,553 @@ body {
 
 .section7 {
     position: relative;
-    background: rgb(101, 117, 29);
     width: 1440px;
     height: 448px;
     top: 109.41;
-    border: 2px black dotted;
+}
+
+
+.picture6 {
+    position: absolute;
+    right: 750px;
+    width: 418px;
+    height: 418px;
+    bottom: 0px;
+    top: 30px;
+}
+
+.textMain7 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 740px;
+    font-weight: 200;
+    font-family: "Din Next LT Pro", sans-serif;
+    font-size: 20px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.textMain7-1 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 740px;
+    font-weight: 200;
+    font-family: "Din Next Pro Italic", sans-serif;
+    font-size: 20px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.buttonMain7 {
+    position: relative;
+    left: 740px;
+    top: 50px;
+    background-color: rgb(222, 219, 219);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(94, 93, 93);
+    border-image: initial;
 }
 
 .section8 {
     position: relative;
-    background: rgb(16, 126, 132);
     width: 1440px;
     height: 448px;
     top: 109.41;
-    border: 2px black dotted;
+}
+
+.picture7 {
+    position: absolute;
+    right: 280px;
+    width: 418px;
+    height: 418px;
+    bottom: 0px;
+    top: 30px;
+}
+
+.textMain8 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 280px;
+    font-weight: 200;
+    font-family: "Din Next LT Pro", sans-serif;
+    font-size: 24px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.textMain8-1 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 280px;
+    font-weight: 200;
+    font-family: "Din Next Pro Italic", sans-serif;
+    font-size: 20px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.buttonMain8 {
+    position: relative;
+    left: 280px;
+    top: 50px;
+    background-color: rgb(222, 219, 219);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(94, 93, 93);
+    border-image: initial;
 }
 
 .section9 {
     position: relative;
-    background: rgb(205, 140, 11);
     width: 1440px;
     height: 448px;
     top: 109.41;
-    border: 2px black dotted;
 }
+
+.picture8 {
+    position: absolute;
+    right: 750px;
+    width: 418px;
+    height: 418px;
+    bottom: 0px;
+    top: 30px;
+}
+
+.textMain9 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 740px;
+    font-weight: 200;
+    font-family: "Din Next LT Pro", sans-serif;
+    font-size: 20px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.textMain9-1 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 740px;
+    font-weight: 200;
+    font-family: "Din Next Pro Italic", sans-serif;
+    font-size: 20px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.buttonMain9 {
+    position: relative;
+    left: 740px;
+    top: 50px;
+    background-color: rgb(222, 219, 219);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(94, 93, 93);
+    border-image: initial;
+}
+
 
 .section10 {
     position: relative;
-    background: rgb(31, 152, 22);
     width: 1440px;
     height: 448px;
     top: 109.41;
-    border: 2px black dotted;
+}
+
+.picture9 {
+    position: absolute;
+    right: 280px;
+    width: 418px;
+    height: 418px;
+    bottom: 0px;
+    top: 30px;
+}
+
+.textMain10 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 30px;
+    left: 280px;
+    font-weight: 200;
+    font-family: "Din Next LT Pro", sans-serif;
+    font-size: 25px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.textMain10-1 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 25px;
+    left: 280px;
+    font-weight: 200;
+    font-family: "Din Next Pro Italic", sans-serif;
+    font-size: 20px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.buttonMain10 {
+    position: relative;
+    left: 280px;
+    top: 15px;
+    background-color: rgb(222, 219, 219);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(94, 93, 93);
+    border-image: initial;
 }
 
 
 .section11 {
     position: relative;
-    background: rgb(134, 107, 13);
     width: 1440px;
     height: 448px;
     top: 109.41;
-    border: 2px black dotted;
+}
+
+.picture10 {
+    position: absolute;
+    right: 750px;
+    width: 418px;
+    height: 418px;
+    bottom: 0px;
+    top: 30px;
+}
+
+.textMain11 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 740px;
+    font-weight: 200;
+    font-family: "Din Next LT Pro", sans-serif;
+    font-size: 20px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.textMain11-1 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 740px;
+    font-weight: 200;
+    font-family: "Din Next Pro Italic", sans-serif;
+    font-size: 20px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.buttonMain11 {
+    position: relative;
+    left: 740px;
+    top: 50px;
+    background-color: rgb(222, 219, 219);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(94, 93, 93);
+    border-image: initial;
 }
 
 .section12 {
     position: relative;
-    background: rgb(233, 241, 176);
     width: 1440px;
     height: 448px;
     top: 109.41;
-    border: 2px black dotted;
 }
 
+.picture11 {
+    position: absolute;
+    right: 280px;
+    width: 418px;
+    height: 418px;
+    bottom: 0px;
+    top: 30px;
+}
+
+.textMain12 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 280px;
+    font-weight: 200;
+    font-family: "Din Next LT Pro", sans-serif;
+    font-size: 24px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.textMain12-1 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 280px;
+    font-weight: 200;
+    font-family: "Din Next Pro Italic", sans-serif;
+    font-size: 20px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.buttonMain12 {
+    position: relative;
+    left: 280px;
+    top: 50px;
+    background-color: rgb(222, 219, 219);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(94, 93, 93);
+    border-image: initial;
+}
+
+
+.section13 {
+    position: relative;
+    width: 1440px;
+    height: 448px;
+    top: 109.41;
+}
+
+.picture12 {
+    position: absolute;
+    right: 750px;
+    width: 418px;
+    height: 418px;
+    bottom: 0px;
+    top: 10px;
+}
+
+.textMain13 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 740px;
+    font-weight: 200;
+    font-family: "Din Next LT Pro", sans-serif;
+    font-size: 20px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.textMain13-1 {
+    position: relative;
+    color: rgb(2, 1, 1);
+    bottom: 0px;
+    top: 48px;
+    left: 740px;
+    font-weight: 200;
+    font-family: "Din Next Pro Italic", sans-serif;
+    font-size: 20px;
+    line-height: 32.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+}
+
+.buttonMain13 {
+    position: relative;
+    left: 740px;
+    top: 50px;
+    background-color: rgb(222, 219, 219);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(94, 93, 93);
+    border-image: initial;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.footerWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1; /* Allow content to grow and push the footer down */
+}
+
+footer {
+    background-color: #404041;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    height: 800px;
+    width: 100%;
+    margin-top: auto;
+}
+
+.newsletterForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.newsletterInput {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    background-color: rgb(102, 102, 102);
+    padding: 0px 0px 0px 16px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    height: 42px;
+    text-align: left;
+    border: 1px solid rgb(102, 102, 102);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.newsletterButton {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #bdbdbd;
+    background-color: #404041;
+    border: 2px solid rgb(102, 102, 102);
+    height: 42px;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+::placeholder {
+    color: #bdbdbd;
+}
+
+.footerMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.footerMenuItem a {
+    color: #bdbdbd;
+    margin: 15px;
+}
+
+.footerSocialMediaMenu .footerMenuItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    filter: invert(38%) sepia(3%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+.youtube {
+    background-image: url('https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/youtube.svg');
+}
+.instagram {
+    background-image: url('https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/instagram.svg');
+}
+.facebook {
+    background-image: url('https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/facebook.svg');
+}
+
+.footerInfo {
+    color: #bdbdbd;
+    margin-top: 30px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 30px;
+}
+
+.sponsors {
+    display: inline-block;
+    margin-top: 60px;
+}
