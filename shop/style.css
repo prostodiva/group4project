@@ -1,5 +1,6 @@
 html { 
     overflow-y: scroll; 
+    overflow-x: hidden;
 }
 
 .header {
@@ -143,6 +144,9 @@ body {
 
 .content {
     flex: 1; /* Allow content to grow and push the footer down */
+    padding: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 footer {
@@ -245,3 +249,108 @@ footer {
     display: inline-block;
     margin-top: 60px;
 }
+
+.subscriptions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.subscription-text h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.subscription-text p {
+    font-size: 20px;
+    color: #555;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.subscription-image img {
+    width: 60%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.shop-category {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    margin-top: -30px;
+}
+
+.shop-category h3 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h4 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+    text-align: center;
+}
+
+.product p {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+}
+
+.content button {
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    color: black;
+    font-size: 16px;
+}
+
+.content a {
+    color: #000;
+    text-decoration: none;
+    
+}
+
+.moreShop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .subscriptions, .product-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .product-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
