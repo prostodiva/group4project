@@ -1,0 +1,17 @@
+.vidFormatting
+{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    line-height: 1;
+    overflow: clip;
+    object-fit: cover;
+    border: none;
+    touch-action: manipulation;
+}
+
+.fontFamily
+{
+    font-family: "Din Next LT Pro", sans-serif;
+}
