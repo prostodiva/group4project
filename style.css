@@ -33,7 +33,43 @@
 
 .element2
 {
-    bottom: 620px;
+    font-size: 18px;
+    bottom: 550px;
     background: white;
     margin: 0px 550px;
+}
+
+.membershipJpgPos
+{
+    position: relative;
+    left: 380px;
+    bottom: 160px;
+    border: solid white;
+    box-sizing: border-box;
+    width: 24%;
+}
+
+h2
+{
+    font-size: 2rem;
+}
+
+.element3
+{
+    position: relative;
+    border: solid white;
+    width: 350px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+    left: 750px;
+    bottom: 516px;
+}
+
+.joinUsButtonFormatting
+{
+    border: solid white;
+    padding: 10px, 10px, 10px, 10px;
+    font-size: 40px;
+    font-weight: 500;
 }
