@@ -1,7 +1,7 @@
 .vidFormatting
 {
-    position: absolute;
-    height: 50%;
+    position: relative;
+    height: 500px;;
     width: 100%;
     margin: 0;
     line-height: 1;
@@ -25,30 +25,50 @@
     border: solid white;
 }
 
+.ele1Container
+{
+    border: solid white;
+    position: relative;
+    margin: auto auto;
+    width: 100%;
+    height: 300px;
+    top: 0px;
+}
+
 .element1
 {
     position: absolute;
-    bottom: 25%;
+    bottom: 10%;
     left: 5%;
     font-size: 18px;
     width: 30%;
     margin-block: 2%;
 }
 
+.ele2Container
+{
+    border: solid white;
+    position: relative;
+    margin: auto auto;
+    width: 100%;
+    height: 800px;
+    top: 0px;
+}
+
 .element2
 {
     position: absolute;
     font-size: 18px;
-    bottom: -30%;
+    bottom: 35%;
     left: 42%;
     background: white;
-    width: 15%;
+    width: 20%;
 }
 
 .ele2ImgFormatting
 {
     position: absolute;
-    bottom: -60%;
+    bottom: 0%;
     width: 100%;
     object-fit: cover;
 }
@@ -56,6 +76,15 @@
 h2
 {
     font-size: 2rem;
+}
+
+.ele3Container
+{
+    position: relative;
+    border: solid white;
+    margin: auto auto;
+    width: 100%;
+    height: 500px;
 }
 
 .element3
@@ -67,15 +96,15 @@ h2
     color: #567A79;
     font-size: 20px;
     font-weight: 300;
-    left: 50%;
-    bottom: -100.3%;
+    left: 55%;
+    bottom: 10%;
 }
 
 .ele3MembershipJpgPos
 {
     position: absolute;
     left: 30%;
-    bottom: -104.4%;
+    bottom: 14%;
     border: solid white;
     box-sizing: border-box;
     width: 24%;
@@ -91,23 +120,30 @@ h2
     font-weight: 500;
 }
 
-
-.ele4tamaleImgFormatting
+.ele4Container
 {
-    position: absolute;
-    left: 10%;
-    bottom: -80%;
-    width: 40%;
+    position: relative;
+    border: solid white;
+    width: 100%;
+    height: 725px;
 }
 
 .element4
 {
     position: absolute;
-    width: 50%;
-    height: 70%;
-    left: 50.4%;
-    bottom: -180%;
+    width: 51%;
+    height: 100%;
+    left: 50%;
+    bottom: 0%;
     background-color: #F3ECDC;
+}
+
+.ele4tamaleImgFormatting
+{
+    position: absolute;
+    left: 10%;
+    bottom: 0%;
+    width: 40%;
 }
 
 .ele4ImgFormatting
@@ -138,11 +174,19 @@ h2
     
 }
 
+.ele5Container
+{
+    position: relative;
+    border: solid white;
+    width: 100%;
+    height: 800px;
+}
+
 .element5
 {
     position: absolute;
     left: 20%;
-    bottom: -265%
+    bottom: 5%
 }
 
 .ele5ButtonFormatting
