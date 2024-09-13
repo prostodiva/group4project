@@ -1,0 +1,282 @@
+@font-face {
+    font-family:"Din Pro Light" ;
+    src: url(635-font.ttf);
+}
+@font-face {
+    font-family: 'Din Pro';
+    src: url(DIN\ Next\ LT\ Pro\ Regular.ttf);
+}
+p {
+    font-family: "Din Pro light";
+    font-size: 20px;  
+    font-weight:100;
+    margin:14.4px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    
+    }
+
+.title {
+    text-align: center;
+    
+}
+.wrapper {
+    width: 600px;
+   margin: auto;
+    border: 5px solid white;
+}
+
+.wrapper2 {
+    width: 100px;
+   margin: auto;
+    border: 5px solid white;
+}
+
+.heading-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: var(--e-global-color-text);
+    font-size: 2.5rem;
+    font-weight:400;
+    font-family: "Din Pro", sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    
+    
+    
+}
+.image1{
+    width:100vw;
+    height:35vw;
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+
+
+@media screen and (min-width: 200px) {
+    body {
+      background-color: white;
+    }
+}
+
+#leftbox {
+    float: none;
+    width: auto;
+  }
+#leftbox2 {
+    float: none;
+    width: 300px;
+  }
+  #rightbox2 {
+    float: right;
+  }
+
+.leftboxposition {
+   border-left:160px solid white;
+   border-top:60px solid white;
+   font-size:28px;
+   margin:0px;
+   width:450px;
+   font-family: "Din Pro light";
+}
+
+.leftboxposition2 {
+    font-family: "Din Pro", sans-serif;
+    font-weight:bold;
+    font-size:24px;
+    width:200px;
+    border-left:160px solid white;
+    border-top:200px solid white;
+
+    
+}
+#rightbox {margin-left: 500px;}
+
+.image2 {
+    float:right;
+    position: relative;
+    bottom:100px;
+    right: 650px;
+}
+.rightboxposition {
+    font-family: "Din Pro light";
+    border-left:30vw solid white;
+    border-top:60px solid white;
+    border-right:15vw solid white;
+    line-height: 2.0;
+    font-size:17px;
+}
+
+.rightboxposition2 {
+    position:relative;
+    font-size:17px;
+    float: right;
+    width: 300px;
+    line-height: 1.5;
+    bottom:50px;
+    left:100px;
+    
+}
+.gif {
+    border-top:400px solid white;
+    width:50vw;
+    height:50vw;
+    background-color:#EAD0BE;
+}
+
+.gifTitle {
+    font-family: "Din Pro", sans-serif;
+    font-weight:bold;
+    font-size:24px;
+    width: 500px;
+    position: relative;
+    bottom:460px;
+    left:850px;
+
+
+}
+
+.gifDescription {
+    font-size:17px;
+    width: 500px;
+    position: relative;
+    bottom: 460px;
+    left:850px;
+   
+    
+}
+.historyTitle {
+    font-family: "Din Pro", sans-serif;
+    font-weight:bold;
+    font-size:24px;
+}
+
+.historySubTitle {
+    font-size:28px;
+}
+
+.historyDescription {
+    font-size:17px;
+    line-height: 1.5;
+    font-family:"Din Pro Light" ;
+}
+.box  {
+    position: relative;
+    background-color:#EAD0BE;
+    height: 800px;
+    width: 1440px;
+    bottom:930px;
+    z-index: -1;
+}
+
+.center{
+    width: 600px; /* Set the fixed width of the box */
+    margin: 0 auto; /* Horizontally center the box */
+    position:relative;
+    bottom:800px;
+}
+
+.stats{
+    position:relative;
+    right: 200px;
+}
+
+.tomatoImage{
+    width:100vw;
+    height:35vw;
+    margin: 0;
+    padding: 0;
+    position:relative;
+    bottom:750px;
+}
+.box  {
+    position: relative;
+    background-color:#EAD0BE;
+    height: 800px;
+    width: 100vw;
+    bottom:930px;
+    z-index: -1;
+}
+.box2  {
+    position: relative;
+    background-color:#EAD0BE;
+    height: 600px;
+    width: 100vw;
+    bottom:930px;
+    z-index: -1;
+}
+
+.tomatoP {
+    font-family: "Din Pro light";
+    width:420px;
+    position:relative;
+    line-height: 2.0;
+    font-size:15px;
+    bottom:1300px;
+    left:250px;
+}
+.tomatoP2 {
+    font-family: "Din Pro light";
+    width:420px;
+    position:relative;
+    line-height: 2.0;
+    font-size:15px;
+    bottom:1585px;
+    left:800px;
+}
+.box3 {
+    position: relative;
+    background-color: #59c4c6;
+    height: 600px;
+    width: 100vw;
+    bottom:930px;
+    z-index: -1;
+}
+
+.reportImage {
+    height:500px;
+    width:500px;
+    position:relative;
+    bottom:1500px;
+    left:200px;
+}
+
+.reportTitle {
+    width:250px;
+    position: relative;
+    font-family: "Din Pro", sans-serif;
+    font-weight:bold;
+    font-size:32px;
+    color:white;
+    bottom: 1900px;
+    left:800px;
+}
+.reportDescription {
+    width:250px;
+    position: relative;
+    font-family: "Din Pro", sans-serif;
+    font-weight:bold;
+    font-size:17px;
+    color:white;
+    bottom: 1900px;
+    left:800px;
+}
+
+.myButton {
+    position:relative;
+    bottom: 1900px;
+    left: 800px;
+    background-color:white;
+    padding: 15px 30px;
+}
+@media screen and (min-width: 480px) {
+    #leftbox {width:500px; float: left;}
+    #rightbox {margin-left: 216px;}
+}
