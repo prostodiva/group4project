@@ -8,14 +8,19 @@
     overflow: clip;
     object-fit: cover;
     border: none;
-    touch-action: manipulation;
+    touch-action: manipulation; 
+}
+
+@font-face {
+    font-family: "Din Next LT Pro";
+    src: url(DIN\ Next\ LT\ Pro\ Light.ttf);
 }
 
 .textFormatting
 {
     font-family: "Din Next LT Pro", Sans-serif;
     position: absolute;
-    text-align: center;  
+    text-align: center;
 }
 
 .textMargin
@@ -185,7 +190,7 @@ h2
 .element5
 {
     position: absolute;
-    left: 20%;
+    left: 25%;
     bottom: 5%
 }
 
