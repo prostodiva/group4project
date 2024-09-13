@@ -147,6 +147,7 @@ body {
     padding: 40px;
     margin-left: 50px;
     margin-right: 50px;
+    border-top: 1px solid #9c9c9c;
 }
 
 footer {
@@ -334,6 +335,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#checkout {
+    margin-top: 1%;
+    margin-bottom: 5%;
 }
 
 /* Responsive Design */
