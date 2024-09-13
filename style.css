@@ -1,0 +1,203 @@
+.vidFormatting
+{
+    position: relative;
+    height: 500px;;
+    width: 100%;
+    margin: 0;
+    line-height: 1;
+    overflow: clip;
+    object-fit: cover;
+    border: none;
+    touch-action: manipulation; 
+}
+
+@font-face {
+    font-family: "Din Next LT Pro";
+    src: url(DIN\ Next\ LT\ Pro\ Light.ttf);
+}
+
+.textFormatting
+{
+    font-family: "Din Next LT Pro", Sans-serif;
+    position: absolute;
+    text-align: center;
+}
+
+.textMargin
+{
+    margin-right: 30vw;
+    margin-left: 30vw; 
+    border: solid white;
+}
+
+.ele1Container
+{
+    border: solid white;
+    position: relative;
+    margin: auto auto;
+    width: 100%;
+    height: 300px;
+    top: 0px;
+}
+
+.element1
+{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    font-size: 18px;
+    width: 30%;
+    margin-block: 2%;
+}
+
+.ele2Container
+{
+    border: solid white;
+    position: relative;
+    margin: auto auto;
+    width: 100%;
+    height: 800px;
+    top: 0px;
+}
+
+.element2
+{
+    position: absolute;
+    font-size: 18px;
+    bottom: 35%;
+    left: 42%;
+    background: white;
+    width: 20%;
+}
+
+.ele2ImgFormatting
+{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    object-fit: cover;
+}
+
+h2
+{
+    font-size: 2rem;
+}
+
+.ele3Container
+{
+    position: relative;
+    border: solid white;
+    margin: auto auto;
+    width: 100%;
+    height: 500px;
+}
+
+.element3
+{
+    position: absolute;
+    border: solid white;
+    width: 16%;
+    text-align: left;
+    color: #567A79;
+    font-size: 20px;
+    font-weight: 300;
+    left: 55%;
+    bottom: 10%;
+}
+
+.ele3MembershipJpgPos
+{
+    position: absolute;
+    left: 30%;
+    bottom: 14%;
+    border: solid white;
+    box-sizing: border-box;
+    width: 24%;
+}
+
+.ele3JoinUsButtonFormatting
+{
+    border: solid white;
+    background-color: #567A79;
+    padding: 10px, 10px, 10px, 10px;
+    color: #F3ECDC;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.ele4Container
+{
+    position: relative;
+    border: solid white;
+    width: 100%;
+    height: 725px;
+}
+
+.element4
+{
+    position: absolute;
+    width: 51%;
+    height: 100%;
+    left: 50%;
+    bottom: 0%;
+    background-color: #F3ECDC;
+}
+
+.ele4tamaleImgFormatting
+{
+    position: absolute;
+    left: 10%;
+    bottom: 0%;
+    width: 40%;
+}
+
+.ele4ImgFormatting
+{
+    position: relative;
+    top: 2%;
+}
+
+.ele4TxtFormatting  
+{
+    position: relative;
+    left: 17%;
+    bottom: 11%;
+    height: 20%;
+    width: 70%;
+    line-height: 1.8em;
+    text-align: left;
+    font-size: 18px;
+}
+
+.ele4ButtonFormatting
+{
+    position: relative;
+    width: 15%;
+    height: 6%;
+    bottom: 13%;
+    right: 25%;
+    
+}
+
+.ele5Container
+{
+    position: relative;
+    border: solid white;
+    width: 100%;
+    height: 800px;
+}
+
+.element5
+{
+    position: absolute;
+    left: 25%;
+    bottom: 5%
+}
+
+.ele5ButtonFormatting
+{
+    position: absolute;
+    right: 54%;
+    border: 0;
+    background-color: white;
+}
