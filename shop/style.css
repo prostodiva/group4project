@@ -1,0 +1,362 @@
+html { 
+    overflow-y: scroll; 
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100% !important;
+    height: 109.41px;
+    margin-top: 0px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #FFFFFF;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+} 
+
+.sectionHeader {
+    width: 1440px;
+    height: 109.41px;
+    
+}
+
+.element-conteiner1 {
+    display: grid;
+    grid-template-columns: 213.41px 1036.3px 179.13px;
+    grid-template-rows: 105px;
+    }
+
+
+
+.logo {
+    position: relative;
+    left: 60px;
+    top: 25px;
+}
+
+
+.wrapColumn2 {
+    width: 1016.3;
+    height: 30px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.widgetConteiner {
+    position: relative;
+    top: 10px;
+}
+
+.navBar {
+    font-family: "Din Next LT Pro", Sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-align: left;
+    display: inline; 
+    position: relative;
+    left: 210px;
+
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    li {
+        float: left;
+    }
+    
+    li a {
+        color: #111;
+        text-align: center;
+        padding: 10px 14px;
+        text-decoration: none;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: #111;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    color: #91d511;
+}
+
+
+.navBar2 {
+    font-family: "Din Next LT Pro", Sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-align: left;
+    display: inline; 
+    position: relative;
+    top: 35px;
+    left:30px;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.footerWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1; /* Allow content to grow and push the footer down */
+    padding: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-top: 1px solid #9c9c9c;
+}
+
+footer {
+    background-color: #404041;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    height: 800px;
+    width: 100%;
+    margin-top: auto;
+}
+
+.newsletterForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.newsletterInput {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    background-color: rgb(102, 102, 102);
+    padding: 0px 0px 0px 16px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    height: 42px;
+    text-align: left;
+    border: 1px solid rgb(102, 102, 102);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.newsletterButton {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #bdbdbd;
+    background-color: #404041;
+    border: 2px solid rgb(102, 102, 102);
+    height: 42px;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+::placeholder {
+    color: #bdbdbd;
+}
+
+.footerMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.footerMenuItem a {
+    color: #bdbdbd;
+    margin: 15px;
+}
+
+.footerSocialMediaMenu .footerMenuItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    filter: invert(38%) sepia(3%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+.youtube {
+    background-image: url('https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/youtube.svg');
+}
+.instagram {
+    background-image: url('https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/instagram.svg');
+}
+.facebook {
+    background-image: url('https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/facebook.svg');
+}
+
+.footerInfo {
+    color: #bdbdbd;
+    margin-top: 30px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 30px;
+}
+
+.sponsors {
+    display: inline-block;
+    margin-top: 60px;
+}
+
+.subscriptions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.subscription-text h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.subscription-text p {
+    font-size: 20px;
+    color: #555;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.subscription-image img {
+    width: 60%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.shop-category {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    margin-top: -30px;
+}
+
+.shop-category h3 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h4 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+    text-align: center;
+}
+
+.product p {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+}
+
+.content button {
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    color: black;
+    font-size: 16px;
+}
+
+.content a {
+    color: #000;
+    text-decoration: none;
+    
+}
+
+.moreShop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#checkout {
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .subscriptions, .product-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .product-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
